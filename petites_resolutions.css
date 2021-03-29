@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px)
+{
+nav ul li:hover {
+    border-top: none;
+    border-bottom: solid 2.5px #0065fc;
+    
+  }
+nav .menu {
+    width: 90%;
+    display: inline-block;
+    height: auto;
+    position: relative;
+  }
+
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+nav ul li:hover {
+        
+        border-bottom: solid 2.5px #0065fc;
+      } 
+}

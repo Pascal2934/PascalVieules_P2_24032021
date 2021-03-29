@@ -1,0 +1,130 @@
+/* Corps de la page + police site */
+body{
+    font-family: "raleway", sans-serif;
+    margin: 0;
+    max-width: 100%;
+}
+@font-face{
+    font-family :'raleway';
+    src:url('raleway/Raleway-Medium.ttf');
+}
+
+/* section */
+
+section {
+    display: block;
+    margin-left: 2.5em;
+}
+
+/*.recherche {
+  margin-left: 3.3vw;
+}*/
+
+/* titre */
+.recherche h1 {
+  font-size: 30px;
+  margin-top: 1vw;
+  margin-right: 20px;
+  clear: left;
+}
+
+/* paragraphe */
+.recherche p {
+  margin-left: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* Bloc Formulaire*/
+
+.searchform {
+  /*background-color: #F2F2F2;*/
+  /*padding: 1rem 1.25rem;*/
+  padding-top: 10px;
+  border-radius: 1rem 0 0 1rem;
+  text-align: center;
+  display: flex;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+/* pointeur carte */
+.mapmarker {
+  min-width: 60px;
+  /*display: -webkit-box;
+  display: -ms-flexbox;*/
+  display: flex;
+  /*-webkit-box-pack: center;*/
+  /*-ms-flex-pack: center;*/
+  justify-content: center;
+  /*-webkit-box-align: center;*/
+  /*-ms-flex-align: center;*/
+  align-items: center;
+  background-color: #f2f2f2;
+  font-size: 1.2em;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  }
+
+.fa, .fas {
+  font-weight: 900;
+  display: none;
+}
+
+/* Encart Marseille */
+.searchfield {
+  width: 12rem;
+  border-top: solid #f2f2f2 1px;
+  border-bottom: solid #f2f2f2 1px;
+  border-left: none;
+  border-right: none;
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+  font-size: initial;
+  padding-left: 20px;
+}
+
+/* Bouton de recherche */
+
+.searchbuttonsubmit {
+  width: 132px;
+  background-color: #0065fc;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: initial;
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  
+}
+
+.searchbuttonsubmit i {
+  font-size: 0;
+}
+
+
+@media screen and (max-width: 650px){
+  .searchbuttonsubmittext{
+    display:none;
+  }
+
+  .searchbuttonsubmit i {
+    font-size: initial;
+  }
+
+  .searchbuttonsubmit {
+    /*background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none;*/
+    width:50px;
+    /*border-radius: 0 1rem 1rem 0;
+    padding: 0 1% 1%;*/
+    /*font-family: "Raleway", "Sans serif";
+    font-size: 1rem;*/
+    cursor: pointer;
+  }
+}
