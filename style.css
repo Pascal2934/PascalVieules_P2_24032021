@@ -133,6 +133,83 @@ section {
   font-size: 0;
 }
 
+/* SECTION FILTRES */
+.filter h3 {
+    font-size: 22px;
+    margin-top: 18px;
+    margin-right: 50px;
+    clear: left;
+  }
+  /* paragraphe */
+  .recherche p {
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .buttonfilter {
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+    border: 2px solid #f2f2f2;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .buttonfiltericon {
+    background-color: #DEEBFF;
+    color: #0065fc;
+    border-radius: 100%;
+    display: flex;
+    min-height: 60px;
+    min-width: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #buttonfiltersearch {
+    display: flex;
+    /*align-items: center;*/
+    padding-top: 30px;
+    margin-right: 2rem;
+    border-width: 5px;
+    border-radius: 2em;
+    margin-bottom: 1rem;
+    
+  }
+  
+  .buttonwriting {
+    margin: 0 1rem;
+  }
+  
+  .infoicon{
+    color: #0065fc;
+    height: 2rem;
+    width: 2rem;
+    min-height: 2rem;
+    min-width: 2rem;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1px;
+  }
+  
+  .info {
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .infosearch {
+    margin-left: 20px;
+    display: flex;
+    width: 100%;
+  }
+
 @media only screen and (max-width: 768px){
 
 /* HEADER */
