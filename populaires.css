@@ -1,0 +1,53 @@
+/* Corps de la page */
+
+body {
+    font-family: "raleway", sans-serif;
+    margin: 0;
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: "raleway";
+    src: url('raleway/Raleway-Medium.ttf');
+}
+
+/* Section Populaire */
+.popu{
+    display:flex;
+}
+
+img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 40%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    float: left;
+    padding-right: 10px;
+    margin-right: 0.8vw;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  
+  .poproom figure {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+  }
+  
+  .poproom {
+    display: flex;
+    height: 200px;
+    width: auto;
+    margin-right: 15px;
+  }
+  
+  .poproom .popularCard {
+    margin-left: 15px;
+  }
