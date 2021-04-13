@@ -1,0 +1,114 @@
+/* Corps de la page */
+
+body {
+    font-family: "raleway", sans-serif;
+    margin: 0;
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: "raleway";
+    src: url('raleway/Raleway-Medium.ttf');
+}
+
+/* Section Populaire */
+
+.pop {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#populaires {
+    background-color: #f2f2f2;
+    width: 40%;
+    border-radius : 20px;
+}
+.popu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 25px;
+}
+#cardpop{
+    flex-direction: column;
+    align-items: start;
+}
+.popu .fas {
+    font-size: 1.25em;
+}
+
+
+.popcard {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 80%;
+    height: 90%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    float: left;
+    padding-right: 10px;
+    margin-right: 1em;
+    margin-top: 17%;
+    margin-left: 1.5em;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  
+.poproom figure {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+  
+.poproom {
+    display: flex;
+    height: 200px;
+    width: auto;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    padding: 0.35em;
+    
+  }
+
+  .popularCard {
+    width: 200%;
+    height:100%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+  .poproom .popularCard {
+    margin-left: 15px;
+  }
+
+  .star {
+      color: #0065fc;
+  }
+
+  .nostar {
+      color: #d9d9d9;
+  }
+
+  @media screen and (max-width: 650px){
+
+    #populaires {
+        background-color: #f2f2f2;
+        width: 100%;
+        order: 1;
+        border-radius: 0;
+    }
+
+    .poproom .popularCard {
+        margin-left: 10px;
+      }
+    
+      /*
+    .popularCard{
+        font-size : 12px;
+        line-height: 3.5px;
+    }*/
+}
